@@ -25,9 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "ProyectoIntegrador_Angular/node_modules/bootstrap/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "ProyectoIntegrador_Angular/node_modules/bootstrap/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
