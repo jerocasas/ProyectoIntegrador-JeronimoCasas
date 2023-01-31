@@ -1,0 +1,11 @@
+img{
+  max-width: 200px;
+}
+
+h1,h2,p{
+  color: rgb(255, 255, 255);
+}
+
+#education{
+  text-align: center;
+}

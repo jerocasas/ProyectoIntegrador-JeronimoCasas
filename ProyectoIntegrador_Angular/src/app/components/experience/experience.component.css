@@ -1,0 +1,20 @@
+h1,h2,p{
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#work-1{
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#work-2{
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#titulo{
+  text-align: center;
+}
