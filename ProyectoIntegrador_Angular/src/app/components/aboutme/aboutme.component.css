@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
 img{
   object-fit: cover;
-  width: 50%;
-  height: 50%;
+  width: 250px;
+  height: 250px;
+  border: 3px solid grey;
 }
 
 div{
@@ -20,27 +24,34 @@ p{
 
 h1, p{
   color: rgb(255, 255, 255);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 span{
-  text-align: center;
+  text-align: left;
 }
 
 
 /*Foto de perfil*/
 #fotodeperfil{
     box-shadow: 3px 3px 3px #14181c;
-    margin-top: -30%;
+    margin-top: -25%;
     border-radius: 50%;
 }
 
+#contenedor{
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
-
+#aboutme{
+  margin-top: 30px;
+  text-align: left;
+}
 
 /*Nombre*/
 #nombre{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 50px;
   margin-top: 10px;

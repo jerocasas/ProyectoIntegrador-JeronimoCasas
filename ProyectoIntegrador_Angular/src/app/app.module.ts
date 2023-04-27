@@ -10,6 +10,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
+import { HComponent } from './components/h/h.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,12 @@ import { EducationComponent } from './components/education/education.component';
     BannerComponent,
     AboutmeComponent,
     ExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    HComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
